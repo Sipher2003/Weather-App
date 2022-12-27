@@ -1,0 +1,4 @@
+feelslike
+humidity
+maxtemp
+mintemp
