@@ -35,4 +35,4 @@ submit.addEventListener("click", (e) => {  // submit is the button
   getweather(city.value);   // city is the input field
 });
 
-getweather("Mumbai");
+getweather("Tokyo");
