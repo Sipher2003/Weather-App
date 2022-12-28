@@ -8,3 +8,7 @@ cloud_pct.innerHTML = response.cloud_pct
   wind_degrees.innerHTML = response.wind_degrees
   sunrise.innerHTML = response.sunrise
   sunset.innerHTML = response.sunset
+
+
+
+

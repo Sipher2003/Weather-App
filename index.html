@@ -27,7 +27,7 @@
       </nav>
 
     <div class="container">
-        <h1 class="my-4 text-center">Weather of <span id="cityname"></span></h1>
+        <h1 class="my-4 text-center" style="color: white;">Weather of <span id="cityname"></span></h1>
         <main>
             <div class="row row-cols-1 row-cols-md-3 mb-3 text-center my-4">
               <div class="col">
@@ -38,12 +38,8 @@
                   <div class="card-body">
                     <h3 class="card-title pricing-card-title"><span id="feels_like"></span>&#176;C<small class="text-muted fw-light"></small></h3>
                     <ul class="list-unstyled mt-3 mb-4">
-                      <li>10 users included</li>
-                      <li>2 GB of storage</li>
-                      <li>Email support</li>
-                      <li>Help center access</li>
+                      <li>In <span id="cityname2"></span> it feels like <span id="feels_like2"></span>&#176;C</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
                   </div>
                 </div>
               </div>
@@ -55,12 +51,8 @@
                   <div class="card-body">
                     <h3 class="card-title pricing-card-title"><span id="min_temp"></span>&#176;C<small class="text-muted fw-light"></small></h3>
                     <ul class="list-unstyled mt-3 mb-4">
-                      <li>20 users included</li>
-                      <li>10 GB of storage</li>
-                      <li>Priority email support</li>
-                      <li>Help center access</li>
+                      <li>Minimum Temperature in <span id="cityname3"></span> is <span id="min_temp2"></span>&#176;C</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
                   </div>
                 </div>
               </div>
@@ -72,68 +64,63 @@
                   <div class="card-body">
                     <h3 class="card-title pricing-card-title"><span id="max_temp"></span>&#176;C<small class="text-muted fw-light"></small></h3>
                     <ul class="list-unstyled mt-3 mb-4">
-                      <li>30 users included</li>
-                      <li>15 GB of storage</li>
-                      <li>Phone and email support</li>
-                      <li>Help center access</li>
+                      <li>Maximum Temperature in <span id="cityname4"></span> is <span id="max_temp2"></span>&#176;C</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                    <!-- <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button> -->
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="container">
+              
+              <main>
+                  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center my-4">
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Temperature</h4>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="card-title pricing-card-title"><span id="temp"></span>&#176;C<small class="text-muted fw-light"></small></h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>Temperature in <span id="cityname5"></span> is <span id="temp2"></span>&#176;C</li>
+                          </ul>
+                          <!-- <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Humidity</h4>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="card-title pricing-card-title"><span id="humidity"></span>&#176;C<small class="text-muted fw-light"></small></h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>Humidity in <span id="cityname6"></span> is <span id="humidity2"></span>&#176;C</li>
+                          </ul>
+                          <!-- <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Wind-speed</h4>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="card-title pricing-card-title"><span id="wind_speed"></span>km/h<small class="text-muted fw-light"></small></h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>Wind speed in <span id="cityname7"></span> is <span id="wind_speed2"></span> km/h</li>
+                          </ul>
+                          <!-- <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
         
-            <h2 class="display-6 text-center mb-4">Other Most Searched Weathers</h2>
-        
-            <div class="table-responsive">
-              <table class="table text-center">
-                <thead>
-                  <tr>
-                    <th style="width: 34%;"></th>
-                    <th style="width: 22%;">Feels-Like</th>
-                    <th style="width: 22%;">Humidity</th>
-                    <th style="width: 22%;">Max_Temp</th>
-                    <th style="width: 22%;">Min_Temp</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="text-start">NewYork</th>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">Madrid</th>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                  </tr>
-                </tbody>
-        
-                <tbody>
-                  <tr>
-                    <th scope="row" class="text-start">Delhi</th>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">Shanghai</th>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                  </tr>
-                  
-                </tbody>
-              </table>
-            </div>
-          </main>
-    </div>
+            <!--  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="index.js"></script>
   
